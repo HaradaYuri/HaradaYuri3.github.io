@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #333;
+    font-family: "Raleway", sans-serif;
+}
+
+li {
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* header */
+
+header {
+    width: 100%;
+    overflow: auto;
+}
+
+header h1 {
+    width: 50%;
+    float: left;
+    margin-left: 40px;
+    padding: 24px;
+}
+
+header ul {
+    width: 40%;
+    float: left;
+    margin-top: 20px;
+    margin-right: 40px;
+    text-align: right;
+}
+
+header ul li {
+    display: inline-block;
+    padding: 16px 30px;
+    font-weight: 800;
+}
+
+/* banner */
+
+.banner {
+    background-image: url(../image/banner-barger.jpeg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    width: 100%;
+    height: 670px;
+    margin-bottom: 200px;
+}
+
+.banner-text {
+    position: absolute;
+    top: 20%;
+    left: 8%;
+    color: aliceblue;
+    width: 70%;
+}
+
+.banner-text h1 {
+    font-size: 70px;
+}
+
+.banner-text p {
+    padding: 16px 4px;
+}
+
+.section-header {
+    text-align: center;
+    padding-top: 100px;
+}
+
+hr {
+    display: block;
+    margin: 0 auto;
+    width: 40%;
+    height: 3px;
+    background-color: rgb(103, 103, 103);
+    border: 0;
+}
+
+.menu {
+    margin: 0 auto;
+    margin-bottom: 200px;
+    padding: 0 7%;
+    width: 85%;
+    height: 1400px;
+    text-align: center;
+    background-color: #e6d6ca;
+}
+
+.menu-image {
+    width: 48%;
+    height: 500px;
+    /* background-color: aqua; */
+    float: left;
+    padding: 2%;
+    margin: 3% auto;
+}
+
+.menu-image img {
+    height: 400px;
+    margin-bottom: 10px;
+}
+
+.menu-text {
+    display: inline-block;
+}
+
+.menu-text p {
+    margin: 20px auto;
+    line-height: 30px;
+    width: 70%;
+}
+
+/* footer */
+
+footer {
+    width: 100%;
+    height: 150px;
+    background-color: #0d0d0d;
+    color: white;
+}
+
+footer h2 {
+    display: inline-block;
+    margin: 55px 50px;
+}
+
+.footer-social{
+float: right;
+margin: 35px 100px;
+
+}
+
+footer ul{
+    list-style: none;
+    display: inline-block;
+}
+
+footer ul li {
+    float: bottom;
+    padding: 10px;
+}
+
+footer a {
+    color: white;
+
+}
